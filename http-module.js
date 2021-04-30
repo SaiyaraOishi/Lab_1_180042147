@@ -5,4 +5,6 @@ const server=http.createServer((req,res)=>{
     res.end();
 });
 
-server.listen(2147);
+// server.listen(2147);
+
+module.exports={server};
