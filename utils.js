@@ -8,4 +8,8 @@ const HelloFunction= require("./helloWorld");
 
 setInterval(()=>{
     HelloFunction.Hello();
-}, 500);
+}, 1000);
+
+setTimeout(()=>{
+    console.log( HelloFunction.name);
+}, 5000);
