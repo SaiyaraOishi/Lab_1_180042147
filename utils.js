@@ -1,3 +1,6 @@
 const HelloFunction= require("./helloWorld");
 
-HelloFunction.Hello();
+//HelloFunction.Hello();
+
+console.log(HelloFunction.name);
+
